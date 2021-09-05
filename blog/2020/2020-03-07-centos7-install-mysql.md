@@ -16,8 +16,6 @@ date: 2020-03-07
 本教程适合在 CentOS 7 上安装 mysql5.7 以上的版本，如果需要安装 Mysql5.6 以下版本可以参考[官网教程](https://dev.mysql.com/doc/mysql-yum-repo-quick-guide/en/)
 在之前博客中有记录使用 docker 的安装教程[Docker 安装 Mysql 和 Redis](https://www.yuque.com/zeffon/blog/cvudeh)
 
-{% meting "390345" "netease" "song" "theme:#555" "mutex:true" "listmaxheight:340px" "preload:auto" %}
-
 ## 正文
 
 ### 添加 MySQL Yum 存储库
