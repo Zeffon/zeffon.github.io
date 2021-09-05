@@ -102,7 +102,7 @@ public @interface SuppressWarnings {
 
 ### 常见第三方注解
 
-1. [@Autowired ](/Autowired)
+1. **@Autowired**
 
 ```java
 @Autowired
@@ -116,7 +116,7 @@ public @interface Autowired {
 }
 ```
 
-1. [@Resource ](/Resource)
+1. **@Resource**
 
 ```java
 @Resource
@@ -140,7 +140,7 @@ public @interface Resource {
 //   如果没有匹配，则回退为一个原始类型进行匹配，如果匹配则自动装配；
 ```
 
-1. [@Controller ](/Controller)
+1. **@Controller**
 
 ```java
 @Controller
@@ -157,7 +157,7 @@ public @interface Controller {
 }
 ```
 
-1. [@Service ](/Service)
+1. **@Service**
 
 ```java
 @Service
@@ -174,7 +174,7 @@ public @interface Service {
 }
 ```
 
-1. [@Repository ](/Repository)
+1. **@Repository**
 
 ```java
 @Repository
@@ -191,7 +191,7 @@ public @interface Repository {
 }
 ```
 
-1. [@Component ](/Component)
+1. **@Component**
 
 ```java
 @Component

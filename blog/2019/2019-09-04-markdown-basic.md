@@ -1,5 +1,5 @@
 ---
-slug: markdown
+slug: markdown-basic
 title: Markdown基础
 authors: zeffon
 tags: [notes]
@@ -256,7 +256,7 @@ Markdown 是一种轻量级标记语言，它允许人们使用易读易写的�
 [icon.png](./images/icon.png)
 ```
 
-[icon.png](./images/icon.png)
+[icon.png]
 
 ③ 包含 'title' 的链接:
 
@@ -266,7 +266,7 @@ Markdown 是一种轻量级标记语言，它允许人们使用易读易写的�
 
 [Google](http://www.google.com/)
 
-> title 使用 ' 或 " 都是可以的。
+> title 使用 `'` 或 `"` 都是可以的。
 
 2. 参考式
 
@@ -403,10 +403,10 @@ Markdown 不支持指定图片的显示大小，不过可以通过直接插入`<
 [Markdown 标准](http://daringfireball.net/projects/markdown/syntax) 本身所包含的功能有限，所以产生了许多第三方的扩展语法，如 [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/)。
 这里只介绍众多扩展语法中的一部分内容，它们在不同平台或工具的支持程度不同，请参考具体平台或工具的文档和说明来使用。
 
-1. [删除线](strikethrougn.md)
-2. [代码块和语法高亮](code-blocks-and-highlighting.md)
-3. [表格](table.md)
-4. [Task List](task-list.md)
+1. 删除线
+2. 代码块和语法高亮
+3. 表格
+4. Task List
 
 - CommonMark
   [CommonMark](http://commonmark.org/) 试图将碎片化的 Markdown 实现和扩展进行标准化，提供统一的 [规范](http://spec.commonmark.org/) 及不同语言的 [实现](http://code.commonmark.org/) 。
@@ -588,7 +588,7 @@ pandoc -o hello.pdf hello.md
 
 1. Chrome
 
-在将 Markdown [转换为 HTML 文档](html.md) 之后，可以通过 [Chrome 浏览器](https://www.google.com/chrome/) 打开它。选择 '打印'（Ctrl+P），然后更改 '目标打印机' 为 '另存为 PDF'，再进行一些设置后，即可保存为 PDF 文档。
+在将 **Markdown** 转换为 **HTML** 文档 之后，可以通过 [Chrome 浏览器](https://www.google.com/chrome/) 打开它。选择 '打印'（Ctrl+P），然后更改 '目标打印机' 为 '另存为 PDF'，再进行一些设置后，即可保存为 PDF 文档。
 
 ### 3.Word
 

@@ -1,5 +1,5 @@
 ---
-slug: java-api-docs
+slug: java-api-docs-generates
 title: Java API自动生成文档
 authors: zeffon
 tags: [java]
@@ -110,27 +110,17 @@ public class UnlockLog extends Base {
 
 ### 注解说明
 
-| API | 作用范围 | 使用位置 |
-| --- | -------- | -------- |
+| API       | 作用范围           | 使用位置         |
+| --------- | ------------------ | ---------------- |
+| @ApiModel | 描述返回对象的意义 | 用在返回对象类上 |
 
-| [@ApiModel ](/ApiModel)
-| 描述返回对象的意义 | 用在返回对象类上 |
-| [@ApiModelProperty ](/ApiModelProperty)
-| 对象属性 | 用在出入参数对象的字段上 |
-| [@Api ](/Api)
-| 协议集描述 | 用于 controller 类上 |
-| [@ApiOperation ](/ApiOperation)
-| 协议描述 | 用在 controller 的方法上 |
-| [@ApiResponses ](/ApiResponses)
-| Response 集 | 用在 controller 的方法上 |
-| [@ApiResponse ](/ApiResponse)
-| Response | 用在 [@ApiResponses ](/ApiResponses)
-里边 |
-| [@ApiImplicitParams ](/ApiImplicitParams)
-| 非对象参数集 | 用在 controller 的方法上 |
-| [@ApiImplicitParam ](/ApiImplicitParam)
-| 非对象参数描述 | 用在 [@ApiImplicitParams ](/ApiImplicitParams)
-的方法里边 |
+| @ApiModelProperty| 对象属性 | 用在出入参数对象的字段上 |
+| @Api | 协议集描述 | 用于 controller 类上 |
+| @ApiOperation| 协议描述 | 用在 controller 的方法上 |
+| @ApiResponses| Response 集 | 用在 controller 的方法上 |
+| @ApiResponse| Response | 用在 @ApiResponses 里边 |
+| @ApiImplicitParams| 非对象参数集 | 用在 controller 的方法上 |
+| @ApiImplicitParam| 非对象参数描述 | 用在 @ApiImplicitParams 的方法里边 |
 
 ## Spring REST Docs
 
