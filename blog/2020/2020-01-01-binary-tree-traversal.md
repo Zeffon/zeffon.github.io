@@ -15,8 +15,6 @@ date: 2020-01-01
 - 今天是 2020 年的第一天，希望在新的一年有所收获...
 - 主要总结一下二叉树的遍历方式及其递归和非递归的实现
 
-{% meting "1294924388" "netease" "song" "theme:#555" "mutex:true" "listmaxheight:340px" "preload:auto" %}
-
 ## 正文
 
 ### 前序遍历

@@ -15,8 +15,6 @@ date: 2020-03-15
 MariaDB 是开源关系数据库，是 MySQL 的原始开发人员制作，并保证保持开源，可以说是 MySQL 的孪生兄弟。随着甲骨文收购了 MySQL，并且半闭源 Java，所以 MySQL 存在着闭源的潜在危险。因此之前 MySQL 的原班人马采用 MariaDB 这个分支来避免风险。
 MariaDB 是完全兼容于 MySQL 的，包括 API 和命令行。
 
-{% meting "139377" "netease" "song" "theme:#555" "mutex:true" "listmaxheight:340px" "preload:auto" %}
-
 ## 正文
 
 ### 下载 RPM 包
