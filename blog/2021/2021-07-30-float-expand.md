@@ -25,10 +25,13 @@ date: 2021-07-30
 
 可以借助一张图更加清晰的了解浮动 **float** 元素的位置排列规则：
 以下盒子都是浮动盒子，**红色**的表示**左浮动**，**蓝色**的表示**右浮动**。数字的顺序按照元素的先后顺序排列。
+![image.png](./img/07-30-01.png)
 
 ## 两栏布局
 
 两栏布局是常见，便是采用了浮动侧栏，主栏是常规流盒子实现的。两栏布局中，一般只会将侧栏进行定宽。可以利用常规流盒子无视浮动盒子的特点，先排列浮动的侧栏，再排列常规流主栏。
+
+![image.png](./img/07-30-02.png)
 
 ```html
 <!DOCTYPE html>
@@ -116,11 +119,11 @@ date: 2021-07-30
 </html>
 ```
 
-![](https://cdn.nlark.com/yuque/0/2021/png/656137/1623505540875-019a46ab-2a7a-4bea-8dca-a9814489c15a.png?x-oss-process=image%2Fresize%2Cw_752#from=url&id=Nv94c&margin=%5Bobject%20Object%5D&originHeight=395&originWidth=752&originalType=binary&ratio=1&status=done&style=none)
-
 ## 三栏布局
 
 三栏布局同样是利用左右栏定宽浮动，中间宽度自适应的常规流实现。
+
+![image.png](./img/07-30-03.png)
 
 ```html
 <!DOCTYPE html>
@@ -327,5 +330,3 @@ date: 2021-07-30
   </body>
 </html>
 ```
-
-![](https://cdn.nlark.com/yuque/0/2021/png/656137/1623505972408-1ec5bf36-8f41-4208-a0be-e38378b1898d.png?x-oss-process=image%2Fresize%2Cw_752#from=url&id=CbC3i&margin=%5Bobject%20Object%5D&originHeight=369&originWidth=752&originalType=binary&ratio=1&status=done&style=none)

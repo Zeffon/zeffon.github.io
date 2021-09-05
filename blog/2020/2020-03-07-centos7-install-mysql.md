@@ -24,7 +24,7 @@ date: 2020-03-07
 
 1. 第一种方法：在`MySQL` [Yum 存储库](https://dev.mysql.com/downloads/repo/yum/)选择并下载适用于你平台的发行包
 
-![07-01-yum-list.png](https://cdn.nlark.com/yuque/0/2021/png/656137/1610715239882-fad4b22b-c6b2-4d62-b777-c7442b7ed9d3.png#align=left&display=inline&height=539&margin=%5Bobject%20Object%5D&name=07-01-yum-list.png&originHeight=539&originWidth=819&size=62615&status=done&style=none&width=819)
+![07-01-yum-list.png](./img/03/07-01-yum-list.png)
 
 2. 第二种方法：使用`wget`直接下载指定版本(这里指定下载 5.7 版本)
 
@@ -74,7 +74,7 @@ $ service mysqld status
 
 > 如果控制台输出如下面图片一样，则启动成功
 
-> ![07-02-mysql-status.png](https://cdn.nlark.com/yuque/0/2021/png/656137/1610715252190-f0cd0601-6b83-472d-9e93-b2b1528dec70.png#align=left&display=inline&height=230&margin=%5Bobject%20Object%5D&name=07-02-mysql-status.png&originHeight=230&originWidth=968&size=27086&status=done&style=none&width=968)
+> ![07-02-mysql-status.png](./img/03/07-02-mysql-status.png)
 
 ### 修改密码
 

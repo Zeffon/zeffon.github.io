@@ -23,7 +23,7 @@ Latex 注重文字编写，不需要去关注排版。这个对于写论文之�
 3. 添加 XeFLaTeX 配置
    LaTeX WorkShop 插件默认只提供**PDFLaTeX**，如果是中文编译则需要**XeFLaTeX**，所以还需另行配置。
 
-![01-01-add-XeFLaTex-config.jpg](https://cdn.nlark.com/yuque/0/2021/jpeg/656137/1610714497939-56a8a050-0a38-454e-93b4-49312354af3d.jpeg#height=340&id=SJjvo&margin=%5Bobject%20Object%5D&name=01-01-add-XeFLaTex-config.jpg&originHeight=340&originWidth=800&originalType=binary&ratio=1&size=43700&status=done&style=none&width=800)
+![01-01-add-XeFLaTex-config.jpg](./img/10/01-01-add-XeFLaTex-config.jpg)
 
 4. 配置代码
    依次选择 `Code > Preferences > Settings`，点击下图所示花括号图标进入 Settings 的 JSON 文件（`用户配置`）
@@ -88,7 +88,7 @@ Latex 注重文字编写，不需要去关注排版。这个对于写论文之�
 
 5. 在.tex 文件的右上角的启动按钮->点击运行
 
-![01-02-build-LaTex.jpg](https://cdn.nlark.com/yuque/0/2021/jpeg/656137/1610714524131-d806b17c-4d97-4e02-8ad8-9aa217668bef.jpeg#height=289&id=fGTr7&margin=%5Bobject%20Object%5D&name=01-02-build-LaTex.jpg&originHeight=289&originWidth=800&originalType=binary&ratio=1&size=34177&status=done&style=none&width=800)
+![01-02-build-LaTex.jpg](./img/10/01-02-build-LaTex.jpg)
 
 ### win 系统
 

@@ -31,7 +31,7 @@ function input<T>(param: T): T {
 
 在图中，**`<T>`** 表示的是 **inupt** 函数的传递类型，它有 **调用方** 传递具体的参数类型，从而传递至参数 **param**的 **T** 和函数的返回类型 **T**。
 在 **input** 函数中，我们接收一个 **param** 参数。**input** 函数并不知道 **param** 是什么类型，用 **T** 来占位表示该参数的类型；而我们函数返回的 **T** 也是未知，由 **`<T>`** 来进行类型的传递工作。
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/656137/1622700684113-f2f4d23c-069c-482d-ab83-7edc641c5cfa.png#clientId=u32dc1276-72c2-4&from=paste&height=476&id=uede04a81&margin=%5Bobject%20Object%5D&name=image.png&originHeight=476&originWidth=1255&originalType=binary&ratio=1&size=85388&status=done&style=none&taskId=u74af7497-bf10-4924-b6b8-8bccdee4140&width=1255)
+![image.png](./img/07-02-01.png)
 
 ## 泛型初体验
 

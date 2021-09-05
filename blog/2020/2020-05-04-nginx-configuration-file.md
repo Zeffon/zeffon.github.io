@@ -13,7 +13,7 @@ Nginx 的核心配置文件 nginx.conf 的配置结构和指令语法
 ## 前文
 
 想要使用好 Nginx，绕不开其核心配置文件的熟练掌握，以下主要是 nginx.conf 的配置结构和相关的指令语法
-![04-01-nginx.conf.png](https://cdn.nlark.com/yuque/0/2021/png/656137/1610714784503-d72904c9-f247-403a-aa79-8adf96438aa3.png#height=329&id=K0tv7&margin=%5Bobject%20Object%5D&name=04-01-nginx.conf.png&originHeight=329&originWidth=563&originalType=binary&ratio=1&size=75618&status=done&style=none&width=563)
+![04-01-nginx.conf.png](./img/05/04-01-nginx.conf.png)
 
 ## 正文
 

@@ -26,7 +26,7 @@ $ dir /b>rename.xls # 会在目录生成rename.xls文件
 
 生成的 rename.xls 如图所示
 第一列是`**固定为ren指令**`   第二列是`**原文件名**`   第三列是`**新文件名**`
-![21-rename.xls.png](https://cdn.nlark.com/yuque/0/2021/png/656137/1610714746349-53c7f858-7425-4257-954c-72841f1b82af.png#height=292&id=iRR3I&margin=%5Bobject%20Object%5D&name=21-rename.xls.png&originHeight=292&originWidth=527&originalType=binary&ratio=1&size=10634&status=done&style=none&width=527)
+![21-rename.xls.png](./img/06/21-rename.xls.png)
 
 > **可以利用替换(Ctrl+h)的方式来实现批量修改文件名** > **如果文件名中出现有空格，需要整个文件名前后加上英文双引号**
 

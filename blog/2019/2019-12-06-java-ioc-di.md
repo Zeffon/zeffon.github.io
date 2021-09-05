@@ -25,11 +25,11 @@ date: 2019-12-06
 在传统的面向对象编程设计，我们需要直接在对象内部通过 new 的方式进行创建对象，这种属于是`程序主动`去创建依赖对象；而 IoC 是有专门一个容器来创建这些对象，即由**Ioc 容器**来控制对象的创建；谁控制谁？当然是**IoC 容器**控制了对象；控制什么？那就是主要控制了外部资源获取。
 **`传统的面向对象编程设计`**
 
-![java-IoC-and-DI-01.png](https://cdn.nlark.com/yuque/0/2021/png/656137/1610715360434-aec07a2d-e27c-4625-b56e-eed6f475d75d.png#align=left&display=inline&height=301&margin=%5Bobject%20Object%5D&name=java-IoC-and-DI-01.png&originHeight=301&originWidth=475&size=23758&status=done&style=none&width=475)
+![java-IoC-and-DI-01.png](./img/12/java-IoC-and-DI-01.png)
 
 **`IoC容器`**
 
-![java-IoC-and-DI-02.png](https://cdn.nlark.com/yuque/0/2021/png/656137/1610715369018-3b8699fb-16e9-43b2-812a-a4b7064b0267.png#align=left&display=inline&height=411&margin=%5Bobject%20Object%5D&name=java-IoC-and-DI-02.png&originHeight=411&originWidth=701&size=40780&status=done&style=none&width=701)
+![java-IoC-and-DI-02.png](./img/12/java-IoC-and-DI-02.png)
 
 #### 为什么是反转呢？
 

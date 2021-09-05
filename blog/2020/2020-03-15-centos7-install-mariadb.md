@@ -3,7 +3,7 @@ slug: centos7-install-mariadb
 title: CentOS7安装mariaDB
 authors: zeffon
 tags: [database]
-date: 2020-03-14
+date: 2020-03-15
 ---
 
 记录一下使用离线的方式在 CentOS7 中安装 mariaDB 10.4.x
@@ -23,11 +23,11 @@ MariaDB 是完全兼容于 MySQL 的，包括 API 和命令行。
 
 1. 安装 7 个所需的 RPM 包，这些包都可以在[MariaDB 网站](http://yum.mariadb.org/10.4/centos7-amd64/rpms/)上找到
 
-![15-01-rpms-list.png](https://cdn.nlark.com/yuque/0/2021/png/656137/1610715134357-d5b506f6-3799-416c-a883-74f9d149246e.png#align=left&display=inline&height=158&margin=%5Bobject%20Object%5D&name=15-01-rpms-list.png&originHeight=158&originWidth=392&size=9389&status=done&style=none&width=392)
+![15-01-rpms-list.png](./img/03/15-01-rpms-list.png)
 
 2. 选择 client、common、compat、server 包时，`版本要一致`
 
-![15-02-find-rpms.png](https://cdn.nlark.com/yuque/0/2021/png/656137/1610715199167-d45d9f8e-6523-4af4-8ab9-f3de0435f1c8.png#align=left&display=inline&height=570&margin=%5Bobject%20Object%5D&name=15-02-find-rpms.png&originHeight=570&originWidth=464&size=30979&status=done&style=none&width=464)
+![15-02-find-rpms.png](./img/03/15-02-find-rpms.png)
 
 ### 逐步安装 RPM 包(一定要按顺序)
 
@@ -171,13 +171,13 @@ $ FLUSH  PRIVILEGES;
 
 1. 除了离线使用下载的安装包进行安装之外，也可以使用 yum 的方式进行在线安装
 
-![15-03-online-install.png](https://cdn.nlark.com/yuque/0/2021/png/656137/1610715184154-2e61f528-58cc-454b-bb06-8fc76eb81920.png#align=left&display=inline&height=605&margin=%5Bobject%20Object%5D&name=15-03-online-install.png&originHeight=605&originWidth=886&size=42554&status=done&style=none&width=886)
+![15-03-online-install.png](./img/03/15-03-online-install.png)
 
 ### win 安装
 
 1. win 安装比较简单，直接下 MSI 包一键安装即可
 
-![15-04-win-install.png](https://cdn.nlark.com/yuque/0/2021/png/656137/1610715214841-0edb6bb5-c477-4788-bf39-b79f7f56cfd2.png#align=left&display=inline&height=486&margin=%5Bobject%20Object%5D&name=15-04-win-install.png&originHeight=486&originWidth=900&size=70114&status=done&style=none&width=900)
+![15-04-win-install.png](./img/03/15-04-win-install.png)
 
 ## 文献参考
 

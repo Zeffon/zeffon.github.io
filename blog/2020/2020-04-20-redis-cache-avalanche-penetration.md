@@ -20,11 +20,11 @@ date: 2020-04-20
 恰好这时候有很大很大的流量流入进来。那么这个时候所有的请求不会再`经过Redis缓存层`，而是都会直接打在数据库上，数据库可能会处理不过来导致`宕机崩溃`。
 
 原本是会经过缓冲层
-![20-aualanche-01.png](https://cdn.nlark.com/yuque/0/2021/png/656137/1610715020118-145dbfb1-a3ae-4156-97d4-22df2898ea68.png#height=198&id=rOHbn&margin=%5Bobject%20Object%5D&name=20-aualanche-01.png&originHeight=198&originWidth=525&originalType=binary&ratio=1&size=27941&status=done&style=none&width=525)
+![20-aualanche-01.png](./img/04/20-aualanche-01.png)
 由于缓存失效或者宕机
-![20-aualanche-02.png](https://cdn.nlark.com/yuque/0/2021/png/656137/1610715069242-9ae5ed0e-6820-44fd-881f-e043a6f6be73.png#height=204&id=Eixvi&margin=%5Bobject%20Object%5D&name=20-aualanche-02.png&originHeight=204&originWidth=528&originalType=binary&ratio=1&size=29230&status=done&style=none&width=528)
+![20-aualanche-02.png](./img/04/20-aualanche-02.png)
 请求直接访问 Mysql
-![20-aualanche-03.png](https://cdn.nlark.com/yuque/0/2021/png/656137/1610715078503-80200c8b-f0e2-422e-84ed-c1a972cb6485.png#height=187&id=mvCrn&margin=%5Bobject%20Object%5D&name=20-aualanche-03.png&originHeight=187&originWidth=532&originalType=binary&ratio=1&size=37714&status=done&style=none&width=532)
+![20-aualanche-03.png](./img/04/20-aualanche-03.png)
 
 `**预防方案**` ：
 

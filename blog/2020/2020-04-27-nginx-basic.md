@@ -19,12 +19,12 @@ Nginx 作为最常见的服务器，我们不但要知道能将项目部署在�
 
 正向代理服务器是`客户端`请求`目标服务器`之间的一个代理服务器。
 一般我们发送了一个请求后，它会先经过代理服务器，然后在经过代理服务器转发请求到`指定的目标服务器`，获得内容后将结果最终响应给客户端。
-![27-01-forward-proxy.png](https://cdn.nlark.com/yuque/0/2021/png/656137/1610714853964-31e0b3a6-fdf5-44da-aa79-76ab5a0302a2.png#height=316&id=NUE0f&margin=%5Bobject%20Object%5D&name=27-01-forward-proxy.png&originHeight=316&originWidth=589&originalType=binary&ratio=1&size=14148&status=done&style=none&width=589)
+![27-01-forward-proxy.png](./img/04/27-01-forward-proxy.png)
 
 #### 反向代理
 
 反向代理：用户请求目标服务器，由代理服务器决定访问哪个 ip 目标服务器
-![27-02-reverse-proxy.png](https://cdn.nlark.com/yuque/0/2021/png/656137/1610714867770-16604163-f50f-4876-9573-d1f9c06b7314.png#height=361&id=wAD67&margin=%5Bobject%20Object%5D&name=27-02-reverse-proxy.png&originHeight=361&originWidth=612&originalType=binary&ratio=1&size=23234&status=done&style=none&width=612)
+![27-02-reverse-proxy.png](./img/04/27-02-reverse-proxy.png)
 
 #### 联系
 
@@ -37,7 +37,7 @@ Nginx 作为高性能的服务器，离不开良好进程模型的支持。
 Nginx 有 Master 主进程和 Worker 工作进程。对于每个 Worker 进程来说，它们都是独立的进程，互相之间不会影响。
 Master 进程通过发指令信号的形式通知 Worker 工作进程
 
-![27-03-process-model.png](https://cdn.nlark.com/yuque/0/2021/png/656137/1610714879219-37a61bc2-56a0-44e6-b2fc-80b498a12af9.png#height=345&id=fF31Z&margin=%5Bobject%20Object%5D&name=27-03-process-model.png&originHeight=345&originWidth=716&originalType=binary&ratio=1&size=26854&status=done&style=none&width=716)
+![27-03-process-model.png](./img/04/27-03-process-model.png)
 
 - Master 进程主要用来管理 Worker 进程
 
@@ -57,16 +57,16 @@ Master 进程通过发指令信号的形式通知 Worker 工作进程
 
 传统服务器中，客户端发起一个请求，如果处理这个请求的工作进程由于处理的时间比较长被阻塞住了，那么它将不会处理后续其它 Client 的请求。Master 进程会 fork 出新的 Worker2 进程来处理。很显然这种方式是不好的，如果刚 fork 的 Worker2 进程也被阻塞的话，Master 又只能 fork 出现 Worker 进程。在高并发情况，发生阻塞的话，服务器会开很多进程来处理，这对服务器资源开销是非常大的。这就是同步阻塞的弊端。这在高并发情况下，这无疑是一场灾难。
 
-![27-04-traditional-event-processing.png](https://cdn.nlark.com/yuque/0/2021/png/656137/1610714948422-41e8eff0-50bc-4a77-b2e8-5d5757214d52.png#height=450&id=PsytK&margin=%5Bobject%20Object%5D&name=27-04-traditional-event-processing.png&originHeight=450&originWidth=605&originalType=binary&ratio=1&size=34354&status=done&style=none&width=605)
+![27-04-traditional-event-processing.png](./img/04/27-04-traditional-event-processing.png)
 
 #### Nginx 服务器-异步非阻塞
 
 Nginx 服务器，客户端发起一个请求，即便处理这个请求的工作进程 1 被阻塞住了，是不会影响它处理其它客户端的请求的，这样就不需要 fork 新的 Worker 进程来处理其它客户端的请求。这是异步非阻塞的好处。
 
-![27-05-nginx-event-processing.png](https://cdn.nlark.com/yuque/0/2021/png/656137/1610714987284-b64d3822-ea7a-418e-8226-7e0c25933d96.png#height=304&id=F5vJs&margin=%5Bobject%20Object%5D&name=27-05-nginx-event-processing.png&originHeight=304&originWidth=603&originalType=binary&ratio=1&size=19548&status=done&style=none&width=603)
+![27-05-nginx-event-processing.png](./img/04/27-05-nginx-event-processing.png)
 
 #### Nginx Worker 抢占机制
 
 当一个请求过来时，会有一个 accept_mutex 互斥锁。Worker 进程会抢占这个锁，抢到后才能处理相对应客户端的请求，假设 Worker1 抢到这个锁后会建立关系，Worker1 就会处理这个请求，将这个请求进行解析、处理、响应，而 Worker2 和 Worker3 没抢到则不需操作。
 
-![27-06-worker-seize.png](https://cdn.nlark.com/yuque/0/2021/png/656137/1610714996325-c8950f9d-4f23-4554-a4e1-93ef87079b82.png#height=391&id=wNmC3&margin=%5Bobject%20Object%5D&name=27-06-worker-seize.png&originHeight=391&originWidth=745&originalType=binary&ratio=1&size=40290&status=done&style=none&width=745)
+![27-06-worker-seize.png](./img/04/27-06-worker-seize.png)

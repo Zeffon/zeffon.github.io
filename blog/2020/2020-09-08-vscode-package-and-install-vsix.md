@@ -44,7 +44,7 @@ $ vsce package
 1. 打开 vscode，选择左边扩展应用
 1. 点击扩展应用小页面左上角的`···`(也就是视图和更多操作，并不是指整个 vscode 页面的`···`)
 
-![08-install-vsix.png](https://cdn.nlark.com/yuque/0/2021/png/656137/1610714583507-2c384537-a838-4771-a74f-7bcaa6016031.png#height=456&id=uPIR9&margin=%5Bobject%20Object%5D&name=08-install-vsix.png&originHeight=456&originWidth=485&originalType=binary&ratio=1&size=58668&status=done&style=none&width=485)
+![08-install-vsix.png](./img/09/08-install-vsix.png)
 
 3. 选择`Install form VSIX...`(从 VSIX 安装)
 4. 跳转至选择存放 vsix 文件目录选择想要安装 vsix 文件即可
