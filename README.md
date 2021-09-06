@@ -2,32 +2,66 @@
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-### Installation
+## 安装&&运行
+
+1. 安装依赖
 
 ```
-$ yarn
+$ yarn install
 ```
 
-### Local Development
+2. 本地运行
 
 ```
 $ yarn start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
+3. 构建
 
 ```
 $ yarn build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## Github Actions
 
-### Deployment
+应用 Github Actions，`push`提交代码自动运行服务进行代码编译。编译后的文件会在存放`gh-pages`分支。
 
+### 配置
+
+1. 在`docusaurus.config.js`配置仓库地址
+
+```yml
+  url: 'https://zeffon.github.io', # 运行后的页面地址
+  baseUrl: '/',                    # url前缀
+  projectName: 'zeffon.github.io', # 项目名称
+  organizationName: 'zeffon',      # github用户名
 ```
-$ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+2. 在`.github\workflows`目录下，新建`documentation.yml`配置文件
+
+```yml
+name: Deploy Github pages
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+        with:
+          persist-credentials: false
+      - name: Install and Build
+        run: |
+          npm install
+          npm run-script build
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: build
+          BUILD_SCRIPT: npm install && npm run build
+```
