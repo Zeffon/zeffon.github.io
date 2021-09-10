@@ -6,6 +6,10 @@ tags: [ts]
 date: 2021-09-10
 ---
 
+一文介绍 `TypeScript`中 **Utility** 常见的类型使用。
+
+<!--truncate-->
+
 ## interface 接口
 
 在使用 **TypeScript**泛型的时候，很多时候我们大多使用采用 **interface**接口形式的类型。它能使用 **implements** 和 **extends**，使用起来是十分方便的。
