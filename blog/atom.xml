@@ -12,7 +12,7 @@
         <id>typescriot-utility</id>
         <link href="https://zeffon.github.io/blog/typescriot-utility"/>
         <updated>2021-09-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[interface 接口]]></summary>
+        <summary type="html"><![CDATA[一文介绍 TypeScript中 Utility 常见的类型使用。]]></summary>
         <author>
             <name>Zeffon Wu</name>
             <uri>https://github.com/zeffon</uri>

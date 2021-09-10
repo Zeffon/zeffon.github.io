@@ -12,7 +12,7 @@
             <link>https://zeffon.github.io/blog/typescriot-utility</link>
             <guid>typescriot-utility</guid>
             <pubDate>Fri, 10 Sep 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[interface 接口]]></description>
+            <description><![CDATA[一文介绍 TypeScript中 Utility 常见的类型使用。]]></description>
         </item>
         <item>
             <title><![CDATA[img 元素图片问题]]></title>
