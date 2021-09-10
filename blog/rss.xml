@@ -4,9 +4,16 @@
         <title>My Site Blog</title>
         <link>https://zeffon.github.io/blog</link>
         <description>My Site Blog</description>
-        <lastBuildDate>Fri, 03 Sep 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 10 Sep 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[TypeScript 中 Utility Types 的应用]]></title>
+            <link>https://zeffon.github.io/blog/typescriot-utility</link>
+            <guid>typescriot-utility</guid>
+            <pubDate>Fri, 10 Sep 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[interface 接口]]></description>
+        </item>
         <item>
             <title><![CDATA[img 元素图片问题]]></title>
             <link>https://zeffon.github.io/blog/img-element</link>
