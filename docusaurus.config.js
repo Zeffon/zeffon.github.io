@@ -40,7 +40,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: '首页',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -50,9 +50,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: '文档',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: '博客', position: 'left'},
           {
             href: 'https://github.com/zeffon',
             label: 'GitHub',
@@ -67,7 +67,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: '文档',
                 to: '/docs/intro',
               },
             ],
@@ -89,7 +89,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'More',
             items: [
               {
-                label: 'Blog',
+                label: '博客',
                 to: '/blog',
               },
               {
