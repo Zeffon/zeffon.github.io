@@ -2,11 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zeffon.github.io/blog</id>
     <title>My Site Blog</title>
-    <updated>2021-09-10T00:00:00.000Z</updated>
+    <updated>2021-09-17T10:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zeffon.github.io/blog"/>
     <subtitle>My Site Blog</subtitle>
     <icon>https://zeffon.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[持续集成、持续交付和持续部署]]></title>
+        <id>ci-and-cd</id>
+        <link href="https://zeffon.github.io/blog/ci-and-cd"/>
+        <updated>2021-09-17T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[最近常常接触到* CI、*CD **这两个词汇，所以想系统性地学习一下。找了一下资料，发现国外大佬的文章和阮老师的文章，让我非常受用，特意学习记录一下。]]></summary>
+        <author>
+            <name>Zeffon Wu</name>
+            <uri>https://github.com/zeffon</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[TypeScript 中 Utility Types 的应用]]></title>
         <id>typescriot-utility</id>
