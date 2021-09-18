@@ -3,7 +3,7 @@ slug: ts-generic
 title: TypeScript 泛型的理解
 authors: zeffon
 tags: [ts]
-date: 2021-07-02
+date: 2021-07-02 10:00
 ---
 
 在 Java 中，我们可以使用泛型来封装一些通用的组件或者工具类。泛型的作用使得这些工具类或者组件更加具有灵活，可以接收各种不同的参数类型。同样，在 TypeScript 中，也可以使用泛型达到相同的效果。

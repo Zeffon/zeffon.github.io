@@ -3,7 +3,7 @@ slug: img-element
 title: img 元素图片问题
 authors: zeffon
 tags: [html, css]
-date: 2021-09-03
+date: 2021-09-03 10:00
 ---
 
 图片空白间隙是怎么出现以及解决方案。

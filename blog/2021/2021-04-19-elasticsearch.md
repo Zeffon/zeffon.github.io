@@ -3,7 +3,7 @@ slug: elasticsearch
 title: ES数据库的使用
 authors: zeffon
 tags: [java, database]
-date: 2021-04-19
+date: 2021-04-19 10:00
 ---
 
 一文介绍**elasticsearch**的安装过程以及简单使用。

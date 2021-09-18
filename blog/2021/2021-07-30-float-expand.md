@@ -3,7 +3,7 @@ slug: float-expand
 title: 浮动的细节
 authors: zeffon
 tags: [css]
-date: 2021-07-30
+date: 2021-07-30 10:00
 ---
 
 浮动 **float **元素作为可视化模型中主要的三大主要的排列方式之一。更多的基础知识在 [CSS 基础 2](https://www.yuque.com/zeffon/blog/css-basic2) 中已有相应介绍了。本篇是记录浮动 **float **元素的一些细节规则和扩展应用。

@@ -3,7 +3,7 @@ slug: vue-event-params
 title: Vue 事件自定参数传递
 authors: zeffon
 tags: [vue]
-date: 2021-08-13
+date: 2021-08-13 10:00
 ---
 
 在开发 Vue 项目的时候，有时候我们使用一些组件的自定义方法时，比如 **el-input**组件中的 input、focus、change 等事件。我们在监听后是要进行书写自己的方法事件的。简单业务下，我们直接 **@input="inputText"**然后再 methods 中编写对应的方法**inputText(data)**。其中**data**参数是**el-input**组件传递出来的，打印出来的值正是我们在输入框输入的值。

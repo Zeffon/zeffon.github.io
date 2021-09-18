@@ -3,7 +3,7 @@ slug: line-height
 title: 行高line-height取值的差异
 authors: zeffon
 tags: [css]
-date: 2021-08-27
+date: 2021-08-27 10:00
 ---
 
 在上篇中 [CSS 参考线](https://www.yuque.com/zeffon/blog/css-baseline) 中已经讲过**line-height**设置数值改变 **参考线** 上下两个 **间隙 gap**的高度来实现**文本间距**改变的效果。

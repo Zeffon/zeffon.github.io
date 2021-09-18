@@ -3,7 +3,7 @@ slug: typeScript
 title: TypeScript 基础梳理
 authors: zeffon
 tags: [ts]
-date: 2021-05-28
+date: 2021-05-28 10:00
 ---
 
 **TypeScript** 是 "强类型" 版的 **JavaScript**，当我们在代码中定义变量(包括普通变量、函数、组件、hook 等)的时候，**TypeScript** 允许我们在定义的同时指定其类型，这样使用者在使用不当的时候就会被及时报错提醒。

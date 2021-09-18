@@ -3,7 +3,7 @@ slug: prettier-commitlint
 title: 项目配置prettier和commitlint
 authors: zeffon
 tags: [react]
-date: 2021-03-17
+date: 2021-03-17 10:00
 ---
 
 **React**项目中，**prettier**配置和**commitlint**配置。
