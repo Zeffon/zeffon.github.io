@@ -4,9 +4,16 @@
         <title>My Site Blog</title>
         <link>https://zeffon.github.io/blog</link>
         <description>My Site Blog</description>
-        <lastBuildDate>Fri, 17 Sep 2021 10:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 Sep 2021 10:15:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[npm 依赖管理 dependencies devDependencies]]></title>
+            <link>https://zeffon.github.io/blog/npm-dependencies</link>
+            <guid>npm-dependencies</guid>
+            <pubDate>Fri, 24 Sep 2021 10:15:00 GMT</pubDate>
+            <description><![CDATA[在平常导入依赖时，我们大多会使用 yarn add xxx 或者 npm install xxx 命令。而在使用这些命令时通常都会在后面加上 -D、-S或者 --save、--save-dev 等参数。使用不同参数的结果会导致安装依赖出现在 package.json 文件依赖管理中的 dependencies 、devDependencies 的不同。]]></description>
+        </item>
         <item>
             <title><![CDATA[持续集成、持续交付和持续部署]]></title>
             <link>https://zeffon.github.io/blog/ci-and-cd</link>
