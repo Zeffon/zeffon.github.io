@@ -3,7 +3,7 @@ slug: typescriot-utility
 title: TypeScript 中 Utility Types 的应用
 authors: zeffon
 tags: [ts]
-date: 2021-09-10
+date: 2021-09-10 10:00
 ---
 
 一文介绍 `TypeScript`中 **Utility** 常见的类型使用。

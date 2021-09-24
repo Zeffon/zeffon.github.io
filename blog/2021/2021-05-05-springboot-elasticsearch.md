@@ -3,7 +3,7 @@ slug: springboot-elasticsearch
 title: SpringBoot配置ES数据库
 authors: zeffon
 tags: [java, database]
-date: 2021-05-05
+date: 2021-05-05 10:00
 ---
 
 上文主要有写关于 ES 数据库的安装与配置，本文主要介绍在 SpringBoot 中应用 ES 数据库的相关流程。
