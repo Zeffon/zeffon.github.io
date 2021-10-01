@@ -2,11 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zeffon.github.io/blog</id>
     <title>My Site Blog</title>
-    <updated>2021-09-24T10:15:00.000Z</updated>
+    <updated>2021-10-01T08:40:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zeffon.github.io/blog"/>
     <subtitle>My Site Blog</subtitle>
     <icon>https://zeffon.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[CSS 方法论]]></title>
+        <id>css-methodologies</id>
+        <link href="https://zeffon.github.io/blog/css-methodologies"/>
+        <updated>2021-10-01T08:40:00.000Z</updated>
+        <summary type="html"><![CDATA[一个前端项目中，CSS 实现各种样式效果并不困难。但在后期维护中，CSS 不规范的书写或者是杂乱命名之类却经常让我们厌恶，从而重新书写自己的样式。因此，CSS 规范书写对于前端项目是至关重要的。它这样不仅可以让我们写出优雅的代码，也方便他人阅读和维护。]]></summary>
+        <author>
+            <name>Zeffon Wu</name>
+            <uri>https://github.com/zeffon</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[npm 依赖管理 dependencies devDependencies]]></title>
         <id>npm-dependencies</id>
