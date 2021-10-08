@@ -12,7 +12,7 @@
             <link>https://zeffon.github.io/blog/css-standard</link>
             <guid>css-standard</guid>
             <pubDate>Fri, 08 Oct 2021 10:28:00 GMT</pubDate>
-            <description><![CDATA[css-standard]]></description>
+            <description><![CDATA[在上文《CSS方法论》中，介绍了四种常见的方法论，但是在实际开发是很难完全落实某一方法论的约定的。所以我在实际开发的需要中，根据CSS方法论中 BEM + SMACSS 这两种方法论的结合命名约定总结出自己的一套CSS书写规范。]]></description>
         </item>
         <item>
             <title><![CDATA[CSS 方法论]]></title>
