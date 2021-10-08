@@ -4,9 +4,16 @@
         <title>My Site Blog</title>
         <link>https://zeffon.github.io/blog</link>
         <description>My Site Blog</description>
-        <lastBuildDate>Fri, 01 Oct 2021 08:40:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 08 Oct 2021 10:28:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[CSS 书写规范]]></title>
+            <link>https://zeffon.github.io/blog/css-standard</link>
+            <guid>css-standard</guid>
+            <pubDate>Fri, 08 Oct 2021 10:28:00 GMT</pubDate>
+            <description><![CDATA[css-standard]]></description>
+        </item>
         <item>
             <title><![CDATA[CSS 方法论]]></title>
             <link>https://zeffon.github.io/blog/css-methodologies</link>
