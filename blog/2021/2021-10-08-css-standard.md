@@ -6,7 +6,6 @@ tags: [css]
 date: 2021-10-08 10:28
 ---
 
-css-standard
 在上文《[CSS方法论](https://www.yuque.com/zeffon/blog/css-methodologies)》中，介绍了四种常见的方法论，但是在实际开发是很难完全落实某一方法论的约定的。所以我在实际开发的需要中，根据CSS方法论中 **BEM** + **SMACSS** 这两种方法论的结合命名约定总结出自己的一套CSS书写规范。
 > 该CSS书写规范随着今后的开发是会作为相应的变动。
 
