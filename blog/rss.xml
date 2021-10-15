@@ -4,9 +4,16 @@
         <title>My Site Blog</title>
         <link>https://zeffon.github.io/blog</link>
         <description>My Site Blog</description>
-        <lastBuildDate>Fri, 08 Oct 2021 10:28:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 15 Oct 2021 10:08:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[浏览器缓存的差异]]></title>
+            <link>https://zeffon.github.io/blog/browser-storage</link>
+            <guid>browser-storage</guid>
+            <pubDate>Fri, 15 Oct 2021 10:08:00 GMT</pubDate>
+            <description><![CDATA[平时在开发Web页面的时候，借助于浏览器的缓存来储存数据是很常见的。但是，浏览器缓存有三种，分别是 Cookie，Local Storage，Session Storage。三者是有所区别的，所以我们需要对这三者有深刻的认识。这样在开发的时候才能正确地选择我们需要的缓存类型。]]></description>
+        </item>
         <item>
             <title><![CDATA[CSS 书写规范]]></title>
             <link>https://zeffon.github.io/blog/css-standard</link>
