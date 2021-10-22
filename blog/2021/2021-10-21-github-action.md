@@ -134,7 +134,7 @@ $ yarn run start
 $ yarn run build
 ```
 ### 仓库准备
-在 **github** 新建一个仓库（作为博客的话，一般命名为**<username>.github.io**）存放博客代码，将代码推送到github上。
+在 **github** 新建一个仓库（作为博客的话，一般命名为 `<username>.github.io`）存放博客代码，将代码推送到github上。
 ​
 
 
