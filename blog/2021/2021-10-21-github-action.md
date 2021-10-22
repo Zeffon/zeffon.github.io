@@ -223,6 +223,7 @@ jobs:
 ### 配置GitHub Pages
 <username.github.io>仓库  ->  Settings  -> Pages  ->  将Source中切换为 **gh-pages** 分支
 ![image.png](./img/10-21-01.png)
+
 ### 提交测试
 在 **master** 分支推送代码后，就可以在github仓库中的 **action** 查看 **workflow** 文件 **集成状态**。
 ![image.png](./img/10-21-02.png)
