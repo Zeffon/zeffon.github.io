@@ -4,9 +4,16 @@
         <title>My Site Blog</title>
         <link>https://zeffon.github.io/blog</link>
         <description>My Site Blog</description>
-        <lastBuildDate>Fri, 15 Oct 2021 10:08:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 21 Oct 2021 10:08:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[GitHub Actions的应用]]></title>
+            <link>https://zeffon.github.io/blog/github-action</link>
+            <guid>github-action</guid>
+            <pubDate>Thu, 21 Oct 2021 10:08:00 GMT</pubDate>
+            <description><![CDATA[记得2019年使用 Jekyll 和 hoxe 写博客时，那时候还不知道有 github actions，只能手动编译后代码单独将其部署在github pages。后来知道持续集成、github actions后，docusaurus 博客使用 actions 特别方便，一提交代码后便会自己编译代码到自指定pages 分支中。]]></description>
+        </item>
         <item>
             <title><![CDATA[浏览器缓存的差异]]></title>
             <link>https://zeffon.github.io/blog/browser-storage</link>

@@ -2,11 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zeffon.github.io/blog</id>
     <title>My Site Blog</title>
-    <updated>2021-10-15T10:08:00.000Z</updated>
+    <updated>2021-10-21T10:08:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zeffon.github.io/blog"/>
     <subtitle>My Site Blog</subtitle>
     <icon>https://zeffon.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[GitHub Actions的应用]]></title>
+        <id>github-action</id>
+        <link href="https://zeffon.github.io/blog/github-action"/>
+        <updated>2021-10-21T10:08:00.000Z</updated>
+        <summary type="html"><![CDATA[记得2019年使用 Jekyll 和 hoxe 写博客时，那时候还不知道有 github actions，只能手动编译后代码单独将其部署在github pages。后来知道持续集成、github actions后，docusaurus 博客使用 actions 特别方便，一提交代码后便会自己编译代码到自指定pages 分支中。]]></summary>
+        <author>
+            <name>Zeffon Wu</name>
+            <uri>https://github.com/zeffon</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[浏览器缓存的差异]]></title>
         <id>browser-storage</id>
