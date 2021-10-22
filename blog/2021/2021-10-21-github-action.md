@@ -24,10 +24,9 @@ GitHub Actions 术语：
 ​
 
 ## workflow文件
-GitHub Actions 的配置文件叫做 **workflow** 文件，存放在项目的根目录的 .github/workflows 目录。
+GitHub Actions 的配置文件叫做 **workflow** 文件，存放在项目的根目录的 `.github/workflows` 目录。
 ​
-
-该配置文件是很常见的 配置文件格式<YAML>，也就是 **.yml** 文件，文件名称是可以任意命名的，而且也可以有多个 **workflow** 文件。只要 .github/workflows 目录存在 **workflow** 文件，就会自动运行这些文件。
+该配置文件是很常见的 配置文件格式`<YAML>`，也就是 `.yml` 文件，文件名称是可以任意命名的，而且也可以有多个 **workflow** 文件。只要 `.github/workflows` 目录存在 **workflow** 文件，就会自动运行这些文件。
 ​
 
 ```yaml
@@ -56,7 +55,7 @@ jobs:
           FOLDER: build
           BUILD_SCRIPT: npm install && npm run build
 ```
-上述的配置就是 **workflow** 文件，由以下主要参数（更多可以查看 [官方文档](https://link.segmentfault.com/?url=https%3A%2F%2Fdocs.github.com%2Fen%2Ffree-pro-team%40latest%2Factions%2Freference%2Fevents-that-trigger-workflows) ）：
+上述的配置就是 **workflow** 文件，由以下主要参数（更多可以查看 [官方文档](https://link.segmentfault.com/?url=https%3A%2F%2Fdocs.github.com%2Fen%2Ffree-pro-team%40latest%2Factions%2Freference%2Fevents-that-trigger-workflows) ）
 ​
 
 #### name
@@ -202,14 +201,14 @@ jobs:
 
 3. ​**CNAME**文件
 
-如果部署为自定义域名，可以添加 **CNAME **文件。如果域名为<username>.github.io 可以不添加
+如果部署为自定义域名，可以添加 **CNAME** 文件。如果域名为 `<username>.github.io` 可以不添加
 ```yaml
 <username>.github.io
 ```
 > 修改后记得提交代码
 
 ### 设置ACCESS_TOKEN
-设置 **ACCESS_TOKEN **可以根据[官网教程](https://docs.github.com/cn/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)配置。
+设置 **ACCESS_TOKEN** 可以根据[官网教程](https://docs.github.com/cn/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)配置。
 大致教程：
 
 1. 创建访问Token
