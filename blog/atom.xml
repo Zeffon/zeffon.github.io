@@ -2,11 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zeffon.github.io/blog</id>
     <title>My Site Blog</title>
-    <updated>2021-10-21T10:08:00.000Z</updated>
+    <updated>2021-10-29T08:32:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zeffon.github.io/blog"/>
     <subtitle>My Site Blog</subtitle>
     <icon>https://zeffon.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[前端路由 hash 和 history 模式]]></title>
+        <id>web-route</id>
+        <link href="https://zeffon.github.io/blog/web-route"/>
+        <updated>2021-10-29T08:32:00.000Z</updated>
+        <summary type="html"><![CDATA[在使用 Vue 或者 React 框架搭建的前端项目时，通常会有 hash 模式和 history 模式两种路由方式。本文主要对其的特点、使用场景进行对比。参考自《前端路由模式详解》和《你真的了解前端路由吗？》。]]></summary>
+        <author>
+            <name>Zeffon Wu</name>
+            <uri>https://github.com/zeffon</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GitHub Actions的应用]]></title>
         <id>github-action</id>

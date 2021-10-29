@@ -4,9 +4,16 @@
         <title>My Site Blog</title>
         <link>https://zeffon.github.io/blog</link>
         <description>My Site Blog</description>
-        <lastBuildDate>Thu, 21 Oct 2021 10:08:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 29 Oct 2021 08:32:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[前端路由 hash 和 history 模式]]></title>
+            <link>https://zeffon.github.io/blog/web-route</link>
+            <guid>web-route</guid>
+            <pubDate>Fri, 29 Oct 2021 08:32:00 GMT</pubDate>
+            <description><![CDATA[在使用 Vue 或者 React 框架搭建的前端项目时，通常会有 hash 模式和 history 模式两种路由方式。本文主要对其的特点、使用场景进行对比。参考自《前端路由模式详解》和《你真的了解前端路由吗？》。]]></description>
+        </item>
         <item>
             <title><![CDATA[GitHub Actions的应用]]></title>
             <link>https://zeffon.github.io/blog/github-action</link>
