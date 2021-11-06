@@ -2,11 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zeffon.github.io/blog</id>
     <title>My Site Blog</title>
-    <updated>2021-10-29T08:32:00.000Z</updated>
+    <updated>2021-11-06T21:32:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zeffon.github.io/blog"/>
     <subtitle>My Site Blog</subtitle>
     <icon>https://zeffon.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[JS 的任务管理机制]]></title>
+        <id>event-loop</id>
+        <link href="https://zeffon.github.io/blog/event-loop"/>
+        <updated>2021-11-06T21:32:00.000Z</updated>
+        <summary type="html"><![CDATA[JavaScript 是被设计为单线程的，这意味着任务只能一个一个处理。如果某一个任务是 I/O 操作类型的，比如用户输入，那么该操作未完成前，其他所有任务都处于等待状态，这样就会造成页面假死状态，从而导致用户体验极差。为了解决该问题， JavaScript 将任务分为同步任务和异步任务，确保页面的交互和渲染处理能高效进行。]]></summary>
+        <author>
+            <name>Zeffon Wu</name>
+            <uri>https://github.com/zeffon</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[前端路由 hash 和 history 模式]]></title>
         <id>web-route</id>
@@ -23,7 +34,7 @@
         <id>github-action</id>
         <link href="https://zeffon.github.io/blog/github-action"/>
         <updated>2021-10-21T10:08:00.000Z</updated>
-        <summary type="html"><![CDATA[记得2019年使用 Jekyll 和 hoxe 写博客时，那时候还不知道有 github actions，只能手动编译后代码单独将其部署在github pages。后来知道持续集成、github actions后，docusaurus 博客使用 actions 特别方便，一提交代码后便会自己编译代码到自指定pages 分支中。]]></summary>
+        <summary type="html"><![CDATA[记得 2019 年使用 Jekyll 和 hoxe 写博客时，那时候还不知道有 github actions，只能手动编译后代码单独将其部署在 github pages。后来知道持续集成、github actions 后，docusaurus 博客使用 actions 特别方便，一提交代码后便会自己编译代码到自指定 pages 分支中。]]></summary>
         <author>
             <name>Zeffon Wu</name>
             <uri>https://github.com/zeffon</uri>
