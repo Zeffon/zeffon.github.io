@@ -2,11 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zeffon.github.io/blog</id>
     <title>My Site Blog</title>
-    <updated>2021-11-06T21:32:00.000Z</updated>
+    <updated>2021-11-12T09:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zeffon.github.io/blog"/>
     <subtitle>My Site Blog</subtitle>
     <icon>https://zeffon.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[CSS3 动画]]></title>
+        <id>css3-animation</id>
+        <link href="https://zeffon.github.io/blog/css3-animation"/>
+        <updated>2021-11-12T09:00:00.000Z</updated>
+        <summary type="html"><![CDATA[在实现一些 CSS 特效中，比如元素的颜色随着高度而变化，或者是元素实现移动。这些效果都是属于动画效果。而动画效果不但可以给页面增加一些趣味性，还可以给用户视觉上的冲击感。而实现 CSS 动画可以采用的是 CSS3 中的新属性 transform（变形）、transition（过渡） 和 animation（帧动画）来实现。​]]></summary>
+        <author>
+            <name>Zeffon Wu</name>
+            <uri>https://github.com/zeffon</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[JS 的任务管理机制]]></title>
         <id>event-loop</id>
