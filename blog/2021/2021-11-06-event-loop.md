@@ -117,8 +117,9 @@ JavaScript 中代码在**回调队列**执行的过程中，会进行以下的�
 
 为此，在浏览器中每个宏任务执行完成后，都会会执行微任务队列中的任务。
 
-> 其实除了浏览器的 **Event Loop** 机制外，Node 也有一套 **Event Loop** 机制。但是在 Node11 后，其 **Event Loop** 跟浏览器保存一致了。
-
+:::tip
+其实除了浏览器的 **Event Loop** 机制外，Node 也有一套 **Event Loop** 机制。但是在 Node11 后，其 **Event Loop** 跟浏览器保存一致了。
+:::
 ​
 
 ​
