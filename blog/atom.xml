@@ -2,11 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zeffon.github.io/blog</id>
     <title>My Site Blog</title>
-    <updated>2021-11-12T09:00:00.000Z</updated>
+    <updated>2021-11-19T22:50:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zeffon.github.io/blog"/>
     <subtitle>My Site Blog</subtitle>
     <icon>https://zeffon.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[JS 异常问题]]></title>
+        <id>js-exception</id>
+        <link href="https://zeffon.github.io/blog/js-exception"/>
+        <updated>2021-11-19T22:50:00.000Z</updated>
+        <summary type="html"><![CDATA[js的异常问题在实际项目作用很大，尽管有很多工具做了很多异常捕获和处理。但是，还是需要我们正确地认识 js 异常才能提高开发效率。在理解 js的异常问题前，先了解一下 《JS 的任务管理机制》。这样才对 js 异常有更好的理解。]]></summary>
+        <author>
+            <name>Zeffon Wu</name>
+            <uri>https://github.com/zeffon</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[CSS3 动画]]></title>
         <id>css3-animation</id>

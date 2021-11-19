@@ -4,9 +4,16 @@
         <title>My Site Blog</title>
         <link>https://zeffon.github.io/blog</link>
         <description>My Site Blog</description>
-        <lastBuildDate>Fri, 12 Nov 2021 09:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 19 Nov 2021 22:50:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[JS 异常问题]]></title>
+            <link>https://zeffon.github.io/blog/js-exception</link>
+            <guid>js-exception</guid>
+            <pubDate>Fri, 19 Nov 2021 22:50:00 GMT</pubDate>
+            <description><![CDATA[js的异常问题在实际项目作用很大，尽管有很多工具做了很多异常捕获和处理。但是，还是需要我们正确地认识 js 异常才能提高开发效率。在理解 js的异常问题前，先了解一下 《JS 的任务管理机制》。这样才对 js 异常有更好的理解。]]></description>
+        </item>
         <item>
             <title><![CDATA[CSS3 动画]]></title>
             <link>https://zeffon.github.io/blog/css3-animation</link>
