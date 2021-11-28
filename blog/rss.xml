@@ -4,9 +4,16 @@
         <title>My Site Blog</title>
         <link>https://zeffon.github.io/blog</link>
         <description>My Site Blog</description>
-        <lastBuildDate>Fri, 19 Nov 2021 22:50:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 28 Nov 2021 08:27:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[flex 弹性布局]]></title>
+            <link>https://zeffon.github.io/blog/flex</link>
+            <guid>flex</guid>
+            <pubDate>Sun, 28 Nov 2021 08:27:00 GMT</pubDate>
+            <description><![CDATA[一文介绍 flex 弹性布局的用法和常见的布局，更多的内容可以在mdn阅读。]]></description>
+        </item>
         <item>
             <title><![CDATA[JS 异常问题]]></title>
             <link>https://zeffon.github.io/blog/js-exception</link>
