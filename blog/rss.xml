@@ -4,9 +4,16 @@
         <title>My Site Blog</title>
         <link>https://zeffon.github.io/blog</link>
         <description>My Site Blog</description>
-        <lastBuildDate>Sat, 04 Dec 2021 20:05:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 11 Dec 2021 08:41:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[JS 对象的操作]]></title>
+            <link>https://zeffon.github.io/blog/js-object</link>
+            <guid>js-object</guid>
+            <pubDate>Sat, 11 Dec 2021 08:41:00 GMT</pubDate>
+            <description><![CDATA[一文介绍js中的Object对象的操作 API。]]></description>
+        </item>
         <item>
             <title><![CDATA[grid 网格布局]]></title>
             <link>https://zeffon.github.io/blog/grid</link>

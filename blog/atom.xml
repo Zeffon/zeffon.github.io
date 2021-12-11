@@ -2,11 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zeffon.github.io/blog</id>
     <title>My Site Blog</title>
-    <updated>2021-12-04T20:05:00.000Z</updated>
+    <updated>2021-12-11T08:41:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zeffon.github.io/blog"/>
     <subtitle>My Site Blog</subtitle>
     <icon>https://zeffon.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[JS 对象的操作]]></title>
+        <id>js-object</id>
+        <link href="https://zeffon.github.io/blog/js-object"/>
+        <updated>2021-12-11T08:41:00.000Z</updated>
+        <summary type="html"><![CDATA[一文介绍js中的Object对象的操作 API。]]></summary>
+        <author>
+            <name>Zeffon Wu</name>
+            <uri>https://github.com/zeffon</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[grid 网格布局]]></title>
         <id>grid</id>
