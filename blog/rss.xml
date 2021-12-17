@@ -4,9 +4,16 @@
         <title>My Site Blog</title>
         <link>https://zeffon.github.io/blog</link>
         <description>My Site Blog</description>
-        <lastBuildDate>Sat, 11 Dec 2021 08:41:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 17 Dec 2021 10:28:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[JS 数组的总结]]></title>
+            <link>https://zeffon.github.io/blog/js-array</link>
+            <guid>js-array</guid>
+            <pubDate>Fri, 17 Dec 2021 10:28:00 GMT</pubDate>
+            <description><![CDATA[写一篇关于 js 数组相关操作的总结，方便后续查阅。]]></description>
+        </item>
         <item>
             <title><![CDATA[JS 对象的操作]]></title>
             <link>https://zeffon.github.io/blog/js-object</link>
