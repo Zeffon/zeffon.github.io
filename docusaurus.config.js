@@ -81,8 +81,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'ZeffonWu@gmail.com',
+                href: 'mailto:ZeffonWu@gmail.com',
               },
             ],
           },
