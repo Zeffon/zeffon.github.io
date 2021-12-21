@@ -7,61 +7,96 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
+import Link from '@docusaurus/Link';
+import { useMount } from '../utils';
+import { useHttp } from '../utils';
+
+type Content = {
+  name: string;
+  src: string;
+}
 
 type FeatureItem = {
   title: string;
-  image: string;
-  description: JSX.Element;
+  contents: Content[];
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    image: '/img/undraw_docusaurus_mountain.svg',
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
+    title: '前端热讯',
+    contents: []
   },
   {
-    title: 'Focus on What Matters',
-    image: '/img/undraw_docusaurus_tree.svg',
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
+    title: 'CS周刊',
+    contents: []
   },
   {
-    title: 'Powered by React',
-    image: '/img/undraw_docusaurus_react.svg',
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
+    title: '力扣解题',
+    contents: []
   },
+  {
+    title: '热门话题',
+    contents: []
+  },
+  {
+    title: 'Nice网站',
+    contents: [
+      {name: "阮老师博客", src: "http://www.ruanyifeng.com"},
+      {name: "张鑫旭", src: "https://www.zhangxinxu.com"},
+      {name: "荒山的掘金", src: "https://juejin.im/user/5762733b2e958a00696163ea/posts"},
+      {name: "淘系前端团队", src: "https://fed.taobao.org"},
+      {name: "腾讯全端", src: "https://www.alloyteam.com"},
+      {name: "FEX - 百度", src: "https://fex.baidu.com"},
+      {name: "JELLY DESIGN - 京东", src: "https://elly.jd.com"},
+      {name: "CSS-Tricks", src: "https://css-tricks.com"},
+    ]
+  },
+  {
+    title: '前端热讯',
+    contents: [
+      {name: "阮老师博客", src: "http://www.ruanyifeng.com"},
+      {name: "张鑫旭", src: "https://www.zhangxinxu.com"},
+      {name: "荒山的掘金", src: "https://juejin.im/user/5762733b2e958a00696163ea/posts"},
+      {name: "淘系前端团队", src: "https://fed.taobao.org"},
+      {name: "腾讯全端", src: "https://www.alloyteam.com"},
+      {name: "FEX - 百度", src: "https://fex.baidu.com"},
+      {name: "JELLY DESIGN - 京东", src: "https://elly.jd.com"},
+      {name: "CSS-Tricks", src: "https://css-tricks.com"},
+    ]
+  }
+  
 ];
 
-function Feature({title, image, description}: FeatureItem) {
+function Feature({title, contents}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <img className={styles.featureSvg} alt={title} src={image} />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
-        <p>{description}</p>
+      <div className={styles.featureItem}>
+        <h2 className="text--center">{title}</h2>
+        <div className={styles.contentCls}>
+          {contents.map((item, idx) => (
+            <div className={styles.contentItem} key={idx}>
+              <Link target="_blank" to={item.src}>
+                {idx+1}. {item.name}
+              </Link>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
 }
 
+function fetchData() {
+  // 1.使用浏览器缓存
+  // 2.以1小时刷新缓存
+  console.log(123)
+  useHttp()
+}
+
 export default function HomepageFeatures(): JSX.Element {
+  useMount(() => {
+    fetchData();
+  })
   return (
     <section className={styles.features}>
       <div className="container">

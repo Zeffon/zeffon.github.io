@@ -54,6 +54,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           },
           {to: '/blog', label: '博客', position: 'left'},
           {
+            href: 'https://www.yuque.com/zeffon/blog',
+            label: '语雀',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/zeffon',
             label: 'GitHub',
             position: 'right',
@@ -79,27 +84,19 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 label: 'Stack Overflow',
                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
             ],
           },
           {
             title: 'More',
             items: [
               {
-                label: '博客',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: '语雀',
+                href: 'https://www.yuque.com/zeffon/blog',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Zeffon, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

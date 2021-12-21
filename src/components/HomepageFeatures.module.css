@@ -5,7 +5,22 @@
   width: 100%;
 }
 
-.featureSvg {
-  height: 200px;
-  width: 200px;
+.featureItem {
+  padding: 1rem;
+  height: 20rem;
+  border: 1px solid var(--ifm-toc-border-color);
+  border-radius: 4px;
+  margin: .4rem 0;
+}
+
+.contentCls {
+  height: calc(100% - 41px);
+  overflow-y: auto;
+  font-size: 15px;
+}
+
+.contentItem {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
