@@ -7,13 +7,15 @@ date: 2021-10-01 08:40
 ---
 
 一个前端项目中，CSS 实现各种样式效果并不困难。但在后期维护中，CSS 不规范的书写或者是杂乱命名之类却经常让我们厌恶，从而重新书写自己的样式。因此，CSS 规范书写对于前端项目是至关重要的。它这样不仅可以让我们写出优雅的代码，也方便他人阅读和维护。
-本文内容学于 **《前端躬行记》-** [**CSS 方法论**](https://www.kancloud.cn/pwstrick/fe-questions/1627447)，由此将其记录在此，方便阅读和查看。
+
+本文内容学于 **《前端躬行记》** - [**CSS 方法论**](https://www.kancloud.cn/pwstrick/fe-questions/1627447)，由此将其记录在此，方便阅读和查看。
 
 <!--truncate-->
 
 ## 前言
 
 首先我们先来理解一下什么是 CSS 方法论呢？
+
 方法论是一个哲学术语，会对一系列具体的方法进行分析研究、系统总结并最终提出较为一般性的原则。CSS 方法论是一种面向 CSS、由个人和组织设计、已被诸多项目检验且公认有效的最佳实践。这些方法论都会涉及结构化的命名约定，并且在组织 CSS 时可提供相应的指南，从而提升代码的性能、可读性以及可维护性。
 根据编写 CSS 样式所遇到的问题而总结出来的方法论有：
 
@@ -58,6 +60,7 @@ date: 2021-10-01 08:40
 ```
 
 **1）命名约定**
+
 在**OOCSS**中，类名既要能传递对象的用途，也要有通用性，例如 mod、complex、pop 等。如果将 CSS 类命名的太语义化，例如 navigation-bar，那么就会将其限制在导航栏，无法应用到网页的其它位置。
 **2）缺点**
 OOCSS 的缺点也很明显，如下所列。
@@ -73,31 +76,38 @@ OOCSS 的缺点也很明显，如下所列。
 1. 块（Block）是一个独立实体，最高级抽象，相当于 OOCSS 中的对象，例如菜单、文本框等。
 1. 元素（Element）是块的组成部分，被包含在块中，无法自成一体，例如菜单项、标题等。
 1. 修饰符（Modifier）是块或元素的状态，可更改它们的外观或行为，例如高亮、选中等。
-   **1）命名约定**
-   BEM 中的块、元素和修饰符需要全部小写，名称中的单词用连字符（-）分隔，元素由双下划线（**）分隔，修饰符由双连字符（--）分隔。注意，块和元素都既不能是 HTML 元素名或 ID，也不依赖其它块或元素。
-   在下面的示例中，.form 是块，.form**input 和.form**submit 是其元素，.form--theme-xmas 是其修饰符，而.form**submit--disabled 是.form\_\_submit 的修饰符。
+
+**1）命名约定**
+
+BEM 中的块、元素和修饰符需要全部小写，名称中的单词用连字符（-）分隔，元素由双下划线（\_\_）分隔，修饰符由双连字符（--）分隔。
+
+:::tip
+注意：块和元素都既不能是 HTML 元素名或 ID，也不依赖其它块或元素。
+:::
+
+在下面的示例中，`.navbar` 是块，`.navbar__items` 是其元素，`.navbar--fixed-top` 是其修饰符，而 `navbar_items--right` 是 `.navbar__items` 的修饰符。
 
 ```html
 <style>
-  .form {
+  .navbar {
   }
-  .form--theme-xmas {
+  .navbar--fixed-top {
   }
-  .form__input {
+  .navbar__items {
   }
-  .form__submit {
-  }
-  .form__submit--disabled {
+  .navbar_items--right {
   }
 </style>
-<form class="form form--theme-xmas">
-  <input class="form__input" type="text" />
-  <input class="form__submit form__submit--disabled" type="submit" />
-</form>
+<div class="navbar navbar--fixed-top">
+  <div class="navbar__items"></div>
+  <div class="navbar__items navbar_items--right"></div>
+</div>
 ```
 
 BEM 的核心思想就是用这种命名约定来清晰的表达出类的含义以及与其它类之间的关系。
+
 **2）缺点**
+
 BEM 的缺点如下所列。
 
 1. BEM 与 OOCSS 一样，也抛弃了层叠，因此也不能完全挖掘出关系选择器的潜力。
@@ -114,17 +124,18 @@ BEM 的缺点如下所列。
 1. 状态（State）描述的是任一模块或布局在特定状态下的外观，例如隐藏、激活等。
 1. 主题（Theme）也就是换肤，描述了页面的外观，它可修改前面四个类别的样式，例如链接颜色、布局方式等。
 
-​
-
 **1）命名约定**
+
 推荐使用前缀来区分布局、模块、状态和主题，如下所列。
 
 1. "l-" 或 "layout-"用作布局的前缀，例如.l-inline、.layout-grid 等。
 1. "m-"或模块自身的命名用作其前缀，例如.m-profile、.m-field 等。
 1. "is-"用作状态的前缀，例如.is-collapsed、.is-active 等。
 1. "theme-"用作主题的前缀，例如.theme-a-background、.theme-l-grid 等。
-   **注意，由于基础规则是直接作用于元素的，因此不需要前缀。**
-   ​
+
+:::tip
+**注意，由于基础规则是直接作用于元素的，因此不需要前缀。**
+:::
 
 **2）共享**
 在实际工作中，不需要局限于某一个 CSS 方法论，很多时候可以结合使用，共享模块化 CSS 的规则。例如遵循 OOCSS 的第一条分离原则，BEM 的命名约定，以及 SMACSS 的分类前缀，具体如下所列。
@@ -133,12 +144,10 @@ BEM 的缺点如下所列。
 1. 子元素用双下划线（\_\_）分隔，其状态前缀沿用"is-"。
 1. 修饰符也以"is-"为前缀，与模块组合时用双连字符（--）分隔。
 1. 适当层叠，最好保持在一层。
-   在下面的示例中，.m-notice**img 和.m-notice**content 是模块的子元素，.is-important 是子元素 h6 的状态，.m-notice--is-active 是模块的修饰符。
+   在下面的示例中，`.m-notice__img` 和 `.m-notice__content` 是模块的子元素，`.is-important` 是子元素 h6 的状态，`.m-notice--is-active`是模块的修饰符。
 
 ```html
 <style>
-  .l-notice {
-  }
   .m-notice {
   }
   .m-notice--is-active {
@@ -150,7 +159,7 @@ BEM 的缺点如下所列。
   .is-important {
   }
 </style>
-<div class="m-notice l-notice">
+<div class="m-notice m-notice--is-active">
   <img class="m-notice__img" />
   <div class="m-notice__content">
     <h6>......</h6>
@@ -167,10 +176,7 @@ Atomic CSS 主要是想要解决大型项目中，CSS 存在的问题：
 1. CSS class 命名使用的冲突问题
 1. stylesheet 过于臃肿的问题
 
-​
-
-Atomic CSS 规定每个类都与一种特定的样式相关联。也就是说在大多数情况下，所有 CSS 类都有一个唯一的 CSS 规则。这样就可以规避上述的 CSS 问题。
-​
+Atomic CSS 规定每个类都与一种特定的样式相关联。也就是说在大多数情况下，所有 CSS 类都有一个唯一的 CSS 规则。这样就可以规避上述的 CSS 问题。​
 
 **1）使用规则**
 用海量的实用工具类（utility classes）组成的样式表：
