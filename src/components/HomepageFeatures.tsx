@@ -41,7 +41,7 @@ const FeatureList: FeatureItem[] = [
   {
     title: 'Nice网站',
     contents: [
-      {name: "阮老师博客", src: "http://www.ruanyifeng.com"},
+      {name: "阮老师博客", src: "http://www.ruanyifeng.com/blog/"},
       {name: "张鑫旭", src: "https://www.zhangxinxu.com"},
       {name: "荒山的掘金", src: "https://juejin.im/user/5762733b2e958a00696163ea/posts"},
       {name: "淘系前端团队", src: "https://fed.taobao.org"},
