@@ -4,9 +4,16 @@
         <title>My Site Blog</title>
         <link>https://zeffon.github.io/blog</link>
         <description>My Site Blog</description>
-        <lastBuildDate>Fri, 17 Dec 2021 10:28:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 Dec 2021 11:38:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[文本控制显示方式]]></title>
+            <link>https://zeffon.github.io/blog/text-show</link>
+            <guid>text-show</guid>
+            <pubDate>Fri, 24 Dec 2021 11:38:00 GMT</pubDate>
+            <description><![CDATA[有时候在元素显示区域并不充分的时候，我们会限制其宽度。但是，却会带来文本太长导致与我们预期的效果不符合。因此，我们常常采用 CSS 来控制文本的显示或者 JS 截取的方式来解决该问题。]]></description>
+        </item>
         <item>
             <title><![CDATA[JS 数组的总结]]></title>
             <link>https://zeffon.github.io/blog/js-array</link>
@@ -127,11 +134,11 @@
             <description><![CDATA[在上篇中 CSS 参考线 中已经讲过line-height设置数值改变 参考线 上下两个 间隙 gap的高度来实现文本间距改变的效果。]]></description>
         </item>
         <item>
-            <title><![CDATA[CSS字体参考线]]></title>
+            <title><![CDATA[CSS 字体参考线]]></title>
             <link>https://zeffon.github.io/blog/css-baseline</link>
             <guid>css-baseline</guid>
             <pubDate>Fri, 20 Aug 2021 10:00:00 GMT</pubDate>
-            <description><![CDATA[网络上的各式各样的文字是怎么制作出来的？通常是借助 fontforge工具根据不同间距的参考线和字体形态制作而成。而制作字体大致上可以会有几根参考线。不同类型的字体，其参考线是不一样（主要体现在线与线的间距），而同一个文字类型，参考线一致。]]></description>
+            <description><![CDATA[网络上的各式各样的文字是怎么制作出来的？通常是借助 fontforge 工具根据不同间距的参考线和字体形态制作而成。而制作字体大致上可以会有几根参考线。不同类型的字体，其参考线是不一样（主要体现在线与线的间距），而同一个文字类型，参考线一致。]]></description>
         </item>
         <item>
             <title><![CDATA[Vue 事件自定参数传递]]></title>
@@ -166,7 +173,7 @@
             <link>https://zeffon.github.io/blog/z-index</link>
             <guid>z-index</guid>
             <pubDate>Fri, 16 Jul 2021 10:00:00 GMT</pubDate>
-            <description><![CDATA[在可视化平面上，我们很容易就可以根据水平和垂直方向规定出坐标轴中的X轴和 Y轴。但是，还有一条 Z轴的存在（垂直于平面的轴线）。也就是 Z 轴相当是我们望向平面的轴线。]]></description>
+            <description><![CDATA[在可视化平面上，我们很容易就可以根据水平和垂直方向规定出坐标轴中的 X 轴和 Y 轴。但是，还有一条 Z 轴的存在（垂直于平面的轴线）。也就是 Z 轴相当是我们望向平面的轴线。]]></description>
         </item>
         <item>
             <title><![CDATA[块级格式化上下文 - BFC]]></title>
