@@ -24,12 +24,12 @@ interface Person {
 }
 ```
 
-而使用这种 **interface** 形式大多时候是参数固定情况使用的。但是，有时候我们在运用类型时，是不需要其他的类型。比如不需要 **age** 类型，虽然我们可以将其设置为可选类型，但是 **Person**在修饰其他变量可能是必选，那么这样也是不能很准确地表达。
-还有，如果我们使用的 **Person interface**接口不是自己定义的，而是其他组件的 **interface**接口。那么我们肯定是不能侵入式地去修改 **age**为可选或者是删除掉。这样的话，就说明出 **interface**接口在一定是上还是有些不灵活。这时候，**新建**一个使用**类型别名**修饰简单的**对象**来代替 **Person** 接口。
+而使用这种 **interface** 形式大多时候是参数固定情况使用的。但是，有时候我们在运用类型时，是不需要其他的类型。比如不需要 **age** 类型，虽然我们可以将其设置为可选类型，但是 **Person** 在修饰其他变量可能是必选，那么这样也是不能很准确地表达。
+还有，如果我们使用的 **Person interface**接口不是自己定义的，而是其他组件的 **interface** 接口。那么我们肯定是不能侵入式地去修改 **age**为可选或者是删除掉。这样的话，就说明出 **interface** 接口在一定是上还是有些不灵活。这时候，**新建** 一个使用**类型别名**修饰简单的**对象**来代替 **Person** 接口。
 
 ## 类型别名
 
-类型别名在本质上跟 **interface** 接口很相似，都是对变量进行修饰。**TypeScript**提供了为类型注解设置别名的便捷语法，可以使用 **type 变量名 = 类型** 来创建别名：
+类型别名在本质上跟 **interface** 接口很相似，都是对变量进行修饰。**TypeScript** 提供了为类型注解设置别名的便捷语法，可以使用 **type 变量名 = 类型** 来创建别名：
 
 ```typescript
 type StrOrNum = string | number;
@@ -38,7 +38,7 @@ type NumArr = [number, number];
 type Callback = (data: string) => void;
 ```
 
-以上是类型别名的简单运用，看上去似乎并没有比 **interface**好用。但是 类型别名可以搭配**联合类型**和**交叉类型**进行应用。比如：
+以上是类型别名的简单运用，看上去似乎并没有比 **interface** 好用。但是 类型别名可以搭配**联合类型**和**交叉类型**进行应用。比如：
 
 ```typescript
 interface Person {
@@ -61,13 +61,11 @@ const OnlyNamePerson: Pick<Person, 'name'> = {
 
 > **utility type** 的用法： 用泛型给它传入一个其它类型，然后** utility type **对这个类型进行某种操作
 
-​
-
 ## 常用 Utility Types
 
 ### Partial 源码解析
 
-**Partial **作用是:\*\* \*\*将类型定义的所有属性都修改为可选。
+**Partial** 作用是: 将类型定义的所有属性都修改为可选。
 
 ```typescript
 type Partial<T> = {
@@ -110,7 +108,7 @@ type PersonOnlyName = Pick<Person, 'name'> // PersonOnlyName只剩下name类型
 
 ### Omit 源码解析
 
-**Omit **作用是: 从类型定义的属性 T 中，删除指定的属性（可用 | 来连接多个需要删除的属性）
+**Omit** 作用是: 从类型定义的属性 T 中，删除指定的属性（可用 | 来连接多个需要删除的属性）
 
 ```typescript
 type Omit<T, K extends keyof any> = Pick<T, Exclude<keyof T, K>>;
