@@ -221,7 +221,7 @@
         <id>vue-event-params</id>
         <link href="https://zeffon.github.io/blog/vue-event-params"/>
         <updated>2021-08-13T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[在开发 Vue 项目的时候，有时候我们使用一些组件的自定义方法时，比如 el-input组件中的 input、focus、change 等事件。我们在监听后是要进行书写自己的方法事件的。简单业务下，我们直接 @input="inputText"然后再 methods 中编写对应的方法inputText(data)。其中data参数是el-input组件传递出来的，打印出来的值正是我们在输入框输入的值。]]></summary>
+        <summary type="html"><![CDATA[在开发 Vue 项目的时候，有时候我们使用一些组件的自定义方法时，比如 el-input 组件中的 input、focus、change 等事件。我们在监听后是要进行书写自己的方法事件的。简单业务下，我们直接 @input="inputText"然后再 methods 中编写对应的方法inputText(data)。其中data参数是el-input组件传递出来的，打印出来的值正是我们在输入框输入的值。]]></summary>
         <author>
             <name>Zeffon Wu</name>
             <uri>https://github.com/zeffon</uri>
