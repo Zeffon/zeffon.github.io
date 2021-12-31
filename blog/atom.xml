@@ -2,28 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zeffon.github.io/blog</id>
     <title>My Site Blog</title>
-    <updated>2021-12-24T11:38:00.000Z</updated>
+    <updated>2021-12-31T10:33:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zeffon.github.io/blog"/>
     <subtitle>My Site Blog</subtitle>
     <icon>https://zeffon.github.io/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[文本控制显示方式]]></title>
-        <id>text-show</id>
-        <link href="https://zeffon.github.io/blog/text-show"/>
-        <updated>2021-12-24T11:38:00.000Z</updated>
-        <summary type="html"><![CDATA[有时候在元素显示区域并不充分的时候，我们会限制其宽度。但是，却会带来文本太长导致与我们预期的效果不符合。因此，我们常常采用 CSS 来控制文本的显示或者 JS 截取的方式来解决该问题。]]></summary>
+        <title type="html"><![CDATA[GET请求如何传递数组参数]]></title>
+        <id>get-param-array</id>
+        <link href="https://zeffon.github.io/blog/get-param-array"/>
+        <updated>2021-12-31T10:33:00.000Z</updated>
+        <summary type="html"><![CDATA[在平时开发中，HTTP 中 GET 请求参数传递的交互是很简单的，无非就是在 URL 设置参数或者 URL 后加上参数的形式。但有时我们会面对 GET 请求传递数组参数的形式，那么又该如何面对呢？]]></summary>
         <author>
             <name>Zeffon Wu</name>
             <uri>https://github.com/zeffon</uri>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[GET请求如何传递数组参数]]></title>
-        <id>get-param-array</id>
-        <link href="https://zeffon.github.io/blog/get-param-array"/>
-        <updated>2021-12-21T10:33:00.000Z</updated>
-        <summary type="html"><![CDATA[在平时开发中，HTTP 中 GET 请求参数传递的交互是很简单的，无非就是在 URL 设置参数或者 URL 后加上参数的形式。但有时我们会面对 GET 请求传递数组参数的形式，那么又该如何面对呢？]]></summary>
+        <title type="html"><![CDATA[文本控制显示方式]]></title>
+        <id>text-show</id>
+        <link href="https://zeffon.github.io/blog/text-show"/>
+        <updated>2021-12-24T11:38:00.000Z</updated>
+        <summary type="html"><![CDATA[有时候在元素显示区域并不充分的时候，我们会限制其宽度。但是，却会带来文本太长导致与我们预期的效果不符合。因此，我们常常采用 CSS 来控制文本的显示或者 JS 截取的方式来解决该问题。]]></summary>
         <author>
             <name>Zeffon Wu</name>
             <uri>https://github.com/zeffon</uri>
