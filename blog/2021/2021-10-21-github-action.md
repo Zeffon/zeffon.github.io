@@ -13,7 +13,6 @@ date: 2021-10-21 10:08
 ## 基本知识
 
 [GitHub Actions](https://github.com/features/actions) 是 **GitHub** 的[持续集成](https://www.yuque.com/zeffon/blog/ci-and-cd#VczYS)服务，在 2018 年 10 月时推出的服务。持续集成由很多操作组成，比如抓取代码、运行测试、登录远程服务器，发布到第三方服务等等。GitHub 把这些操作就称为 actions。
-​
 
 GitHub Actions 术语：
 
@@ -22,14 +21,11 @@ GitHub Actions 术语：
 1. **step**：每个 **job** 由多个 **step** 构成，一步步完成。
 1. **action**：每个 **step** 可以依次执行一个或多个命令（**action**）。
 
-​
-
 ## workflow 文件
 
 GitHub Actions 的配置文件叫做 **workflow** 文件，存放在项目的根目录的 `.github/workflows` 目录。
-​
+
 该配置文件是很常见的 配置文件格式`<YAML>`，也就是 `.yml` 文件，文件名称是可以任意命名的，而且也可以有多个 **workflow** 文件。只要 `.github/workflows` 目录存在 **workflow** 文件，就会自动运行这些文件。
-​
 
 ```yaml
 name: Deploy Github pages
@@ -59,12 +55,10 @@ jobs:
 ```
 
 上述的配置就是 **workflow** 文件，由以下主要参数（更多可以查看 [官方文档](https://link.segmentfault.com/?url=https%3A%2F%2Fdocs.github.com%2Fen%2Ffree-pro-team%40latest%2Factions%2Freference%2Fevents-that-trigger-workflows) ）
-​
 
 #### name
 
 name 是 workflow 的名称。如果省略该字段，默认为当前 workflow 的文件名。
-​
 
 #### on
 
@@ -117,8 +111,6 @@ jobs.<job_id>.steps.run：该步骤运行的命令或者 action。
 jobs.<job_id>.steps.env：该步骤所需的环境变量。
 ```
 
-​
-
 4. jobs.<job_id>.needs: needs 多个任务时，可以通过 job_id 来指定当前任务的依赖关系，使得任务的运行顺序按照依赖关系来。
 
 ```yaml
@@ -152,7 +144,6 @@ $ yarn run build
 ### 仓库准备
 
 在 **github** 新建一个仓库（作为博客的话，一般命名为 `<username>.github.io`）存放博客代码，将代码推送到 github 上。
-​
 
 1. 本地仓库准备：
 
@@ -221,7 +212,7 @@ jobs:
           BUILD_SCRIPT: npm install && npm run build
 ```
 
-3. ​**CNAME**文件
+3. **CNAME**文件
 
 如果部署为自定义域名，可以添加 **CNAME** 文件。如果域名为 `<username>.github.io` 可以不添加
 
@@ -243,7 +234,6 @@ jobs:
 2. 给项目配置 ACCESS_TOKEN
 
 `<username.github.io>`仓库 -> Settings -> Secrets -> New repository secret -> 取名为 ACCESS_TOKEN
-​
 
 ### 配置 GitHub Pages
 

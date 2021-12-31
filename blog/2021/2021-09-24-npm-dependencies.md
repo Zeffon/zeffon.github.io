@@ -17,7 +17,7 @@ date: 2021-09-24 10:15
 > **Please do not put test harnesses or transpilers or other "development" time tools in your dependencies object.**
 > 翻译：在 **dependencies** 里不要存放 测试工具或转译器或其他“开发”时间工具。
 
-也就是说，该字段**dependencies** 里的依赖**原则上**是只能存放一些**编译后，**项目在**生产环境**所使用的依赖。这里很常见的如：react、vue、vue-router、element-ui 等等。这些依赖如果在**生产环境缺少**的话，会导致代码运行不了，项目无法访问。​
+也就是说，该字段**dependencies** 里的依赖**原则上**是只能存放一些**编译后，**项目在**生产环境**所使用的依赖。这里很常见的如：react、vue、vue-router、element-ui 等等。这些依赖如果在**生产环境缺少**的话，会导致代码运行不了，项目无法访问。
 
 ## devDependencies
 

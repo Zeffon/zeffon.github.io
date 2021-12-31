@@ -6,7 +6,7 @@ tags: [css]
 date: 2021-11-12 09:00
 ---
 
-在实现一些 CSS 特效中，比如元素的颜色随着高度而变化，或者是元素实现移动。这些效果都是属于动画效果。而动画效果不但可以给页面增加一些趣味性，还可以给用户视觉上的冲击感。而实现 **CSS 动画**可以采用的是 **CSS3** 中的新属性 [**transform**](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transform)（变形）、[**transition**](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transition)（过渡） 和 [**animation**](https://developer.mozilla.org/zh-CN/docs/Web/CSS/animation)（帧动画）**来实现**。​
+在实现一些 CSS 特效中，比如元素的颜色随着高度而变化，或者是元素实现移动。这些效果都是属于动画效果。而动画效果不但可以给页面增加一些趣味性，还可以给用户视觉上的冲击感。而实现 **CSS 动画**可以采用的是 **CSS3** 中的新属性 [**transform**](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transform)（变形）、[**transition**](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transition)（过渡） 和 [**animation**](https://developer.mozilla.org/zh-CN/docs/Web/CSS/animation)（帧动画）**来实现**。
 
 <!--truncate-->
 
@@ -28,19 +28,15 @@ date: 2021-11-12 09:00
 
 语法如下：
 **transition**：<属性名称> <过渡时间> <时间函数> <延迟时间>
-​
 
 多个属性的过渡效果，语法如下：
 **transition**：<属性 1> <时间 1> <模式 1>，<属性 2> <时间 2> <模式 2>，...
-​
 
 **transition** 在之前还没被规范时，不同浏览器使用的 **transition** 属性各有不同：
 
 - -webkit-transition chrome 和 safari
 - -moz-transition firebox
 - -o-transition Opera
-
-​
 
 **transition** 中 **transition-timing-function** 属性有如下预设值：
 
@@ -49,10 +45,6 @@ date: 2021-11-12 09:00
 - ease-in 缓慢开始
 - ease-out 缓慢结束
 - ease-in-out 缓慢开始，缓慢结束（和 ease 稍微有区别）
-
-​
-
-​
 
 1. 延迟**1**秒后，**width** 直线均速增至 **1000px**
    :::tip
@@ -124,8 +116,6 @@ date: 2021-11-12 09:00
 1. 帧动画
 1. 跳动元素...
 
-​
-
 > **animation** 属性是 [**animation-name**](https://developer.mozilla.org/zh-CN/docs/Web/CSS/animation-name), [**animation-duration**](https://developer.mozilla.org/zh-CN/docs/Web/CSS/animation-duration), [**animation-timing-function**](https://developer.mozilla.org/zh-CN/docs/Web/CSS/animation-timing-function), [**animation-delay**](https://developer.mozilla.org/zh-CN/docs/Web/CSS/animation-delay), [**animation-iteration-count**](https://developer.mozilla.org/zh-CN/docs/Web/CSS/animation-iteration-count), [**animation-direction**](https://developer.mozilla.org/zh-CN/docs/Web/CSS/animation-direction),[**animation-fill-mode**](https://developer.mozilla.org/zh-CN/docs/Web/CSS/animation-fill-mode)和[**animation-play-state**](https://developer.mozilla.org/zh-CN/docs/Web/CSS/animation-play-state) 这 8 个属性的一个简写属性形式。
 
 1. 动画名称（name）-- @keyframes
@@ -136,8 +126,6 @@ date: 2021-11-12 09:00
 1. 播放方向（direction）即是否轮流播放和反向播放 （alternate 正向、reverse 反向）
 1. 停止播放的状态（fill-mode）（forwards 播放完回到次数的状态）
 1. 是否暂停（play-state）（running）
-
-​
 
 1. 直线均速平移
 
@@ -265,7 +253,6 @@ Steps 作用的是每个关键帧，而不是整个时间
 1. Steps(1, start | end)
 
 比如：steps(12, start) 关键帧分为 12 步
-​
 
 ![loading.png](./img/11-12-01.png)
 
