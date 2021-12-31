@@ -15,6 +15,13 @@
             <description><![CDATA[有时候在元素显示区域并不充分的时候，我们会限制其宽度。但是，却会带来文本太长导致与我们预期的效果不符合。因此，我们常常采用 CSS 来控制文本的显示或者 JS 截取的方式来解决该问题。]]></description>
         </item>
         <item>
+            <title><![CDATA[GET请求如何传递数组参数]]></title>
+            <link>https://zeffon.github.io/blog/get-param-array</link>
+            <guid>get-param-array</guid>
+            <pubDate>Tue, 21 Dec 2021 10:33:00 GMT</pubDate>
+            <description><![CDATA[在平时开发中，HTTP 中 GET 请求参数传递的交互是很简单的，无非就是在 URL 设置参数或者 URL 后加上参数的形式。但有时我们会面对 GET 请求传递数组参数的形式，那么又该如何面对呢？]]></description>
+        </item>
+        <item>
             <title><![CDATA[JS 数组的总结]]></title>
             <link>https://zeffon.github.io/blog/js-array</link>
             <guid>js-array</guid>

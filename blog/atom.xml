@@ -19,6 +19,17 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[GET请求如何传递数组参数]]></title>
+        <id>get-param-array</id>
+        <link href="https://zeffon.github.io/blog/get-param-array"/>
+        <updated>2021-12-21T10:33:00.000Z</updated>
+        <summary type="html"><![CDATA[在平时开发中，HTTP 中 GET 请求参数传递的交互是很简单的，无非就是在 URL 设置参数或者 URL 后加上参数的形式。但有时我们会面对 GET 请求传递数组参数的形式，那么又该如何面对呢？]]></summary>
+        <author>
+            <name>Zeffon Wu</name>
+            <uri>https://github.com/zeffon</uri>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[JS 数组的总结]]></title>
         <id>js-array</id>
         <link href="https://zeffon.github.io/blog/js-array"/>
