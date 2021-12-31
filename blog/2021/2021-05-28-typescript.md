@@ -260,6 +260,6 @@ const isFalsy = (value: unknown) => {
 
 ## .d.ts
 
-JS 文件 + .d.ts 文件   === ts 文件
+JS 文件 + .d.ts 文件 === ts 文件
 .d.ts 文件可以让 JS 文件继续维持自己 JS 文件的身份，而拥有 TS 的类型保护
 一般我们写业务代码不会用到，但是点击类型跳转一般会跳转到 .d.ts 文件
