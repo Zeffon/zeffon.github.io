@@ -31,14 +31,6 @@ const FeatureList: FeatureItem[] = [
     contents: []
   },
   {
-    title: '力扣解题',
-    contents: []
-  },
-  {
-    title: '热门话题',
-    contents: []
-  },
-  {
     title: 'Nice网站',
     contents: [
       {name: "阮老师博客", src: "http://www.ruanyifeng.com/blog/"},
@@ -50,21 +42,7 @@ const FeatureList: FeatureItem[] = [
       {name: "JELLY DESIGN - 京东", src: "https://elly.jd.com"},
       {name: "CSS-Tricks", src: "https://css-tricks.com"},
     ]
-  },
-  {
-    title: '前端热讯',
-    contents: [
-      {name: "阮老师博客", src: "http://www.ruanyifeng.com"},
-      {name: "张鑫旭", src: "https://www.zhangxinxu.com"},
-      {name: "荒山的掘金", src: "https://juejin.im/user/5762733b2e958a00696163ea/posts"},
-      {name: "淘系前端团队", src: "https://fed.taobao.org"},
-      {name: "腾讯全端", src: "https://www.alloyteam.com"},
-      {name: "FEX - 百度", src: "https://fex.baidu.com"},
-      {name: "JELLY DESIGN - 京东", src: "https://elly.jd.com"},
-      {name: "CSS-Tricks", src: "https://css-tricks.com"},
-    ]
   }
-  
 ];
 
 function Feature({title, contents}: FeatureItem) {
