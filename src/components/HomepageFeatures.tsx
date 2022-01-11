@@ -23,12 +23,27 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: '前端热讯',
-    contents: []
+    title: 'JS 学习',
+    contents: [
+      {name: "JavaScript 秘密花园", src: "https://bonsaiden.github.io/JavaScript-Garden/zh/"},
+      {name: "JS 技巧", src: "https://www.jstips.co"},
+      {name: "技术周刊", src: "https://javascriptweekly.comm"},
+      {name: "JavaScript 资料库", src: "https://cdnjs.com/libraries"},
+      {name: "开源 JS 库集合", src: "https://beautifulopen.com"},
+      {name: "代码库集合", src: "https://www.javascript.fun"}
+    ]
   },
   {
-    title: 'CS周刊',
-    contents: []
+    title: 'CSS学习',
+    contents: [
+      {name: "CSS Battle", src: "https://cssbattle.dev"},
+      {name: "CSS 布局", src: "http://learnlayout.com"},
+      {name: "Flex 布局小游戏", src: "http://flexboxfroggy.com"},
+      {name: "CSS可视化工具", src: "https://enjoycss.com"},
+      {name: "CSS 技巧", src: "https://css-tricks.com"},
+      {name: "新拟态效果", src: "https://neumorphism.io"},
+      {name: "CSS 渐变色", src: "https://uigradients.com"}
+    ]
   },
   {
     title: 'Nice网站',
