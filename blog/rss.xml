@@ -4,9 +4,16 @@
         <title>My Site Blog</title>
         <link>https://zeffon.github.io/blog</link>
         <description>My Site Blog</description>
-        <lastBuildDate>Fri, 07 Jan 2022 10:15:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 14 Jan 2022 10:09:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[PNPM 初识]]></title>
+            <link>https://zeffon.github.io/blog/pnpm</link>
+            <guid>pnpm</guid>
+            <pubDate>Fri, 14 Jan 2022 10:09:00 GMT</pubDate>
+            <description><![CDATA[一个速度快、节省磁盘空间的软件包管理器 - pnpm 工具。pnpm 现在广泛被使用，Vue3、element-plus 版本都是采用 pnpm 来进行包管理的。]]></description>
+        </item>
         <item>
             <title><![CDATA[Vite 的介绍]]></title>
             <link>https://zeffon.github.io/blog/vite</link>
