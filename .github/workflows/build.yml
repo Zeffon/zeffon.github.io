@@ -15,12 +15,11 @@ jobs:
       - name: Install and Build
         run: |
           npm install
-          npm cache clear --force
           npm run-script build
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages
           FOLDER: build
-          BUILD_SCRIPT: npm install && npm cache clear --force && npm run build
+          BUILD_SCRIPT: npm install && npm run build
