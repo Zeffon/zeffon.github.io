@@ -4,9 +4,16 @@
         <title>My Site Blog</title>
         <link>https://zeffon.github.io/blog</link>
         <description>My Site Blog</description>
-        <lastBuildDate>Sat, 29 Jan 2022 15:11:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 13 Apr 2022 12:11:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[使用 TypeScript 构建 Koa2 RESTful API 最佳的脚手架]]></title>
+            <link>https://zeffon.github.io/blog/koa-web</link>
+            <guid>koa-web</guid>
+            <pubDate>Wed, 13 Apr 2022 12:11:00 GMT</pubDate>
+            <description><![CDATA[koa2 是基于 NodeJS 下一代 Web 开发框架。但是，Koa2 并没法像 Java 的 SpringBoot 框架那般开箱即用。Koa2 如果不通过二次封装，真的很难直接作为 Web 开发框架开发具体的业务。]]></description>
+        </item>
         <item>
             <title><![CDATA[浏览器渲染页面]]></title>
             <link>https://zeffon.github.io/blog/page-render</link>

@@ -2,11 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zeffon.github.io/blog</id>
     <title>My Site Blog</title>
-    <updated>2022-01-29T15:11:00.000Z</updated>
+    <updated>2022-04-13T12:11:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zeffon.github.io/blog"/>
     <subtitle>My Site Blog</subtitle>
     <icon>https://zeffon.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[使用 TypeScript 构建 Koa2 RESTful API 最佳的脚手架]]></title>
+        <id>koa-web</id>
+        <link href="https://zeffon.github.io/blog/koa-web"/>
+        <updated>2022-04-13T12:11:00.000Z</updated>
+        <summary type="html"><![CDATA[koa2 是基于 NodeJS 下一代 Web 开发框架。但是，Koa2 并没法像 Java 的 SpringBoot 框架那般开箱即用。Koa2 如果不通过二次封装，真的很难直接作为 Web 开发框架开发具体的业务。]]></summary>
+        <author>
+            <name>Zeffon Wu</name>
+            <uri>https://github.com/zeffon</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[浏览器渲染页面]]></title>
         <id>page-render</id>
