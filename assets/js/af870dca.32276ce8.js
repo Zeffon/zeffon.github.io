@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[7933],{97730:function(e){e.exports=JSON.parse('{"label":"mq","permalink":"/blog/tags/mq","allTagsPath":"/blog/tags","count":2}')}}]);

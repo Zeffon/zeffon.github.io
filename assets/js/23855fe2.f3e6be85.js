@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[8],{40912:function(e){e.exports=JSON.parse('{"label":"redis","permalink":"/blog/tags/redis","allTagsPath":"/blog/tags","count":4}')}}]);
